@@ -2,7 +2,7 @@
 
 My personal portfolio website built from scratch to showcase my skills, projects, and learning journey as an Information Systems student.
 
-## 🚀 Features
+## Features
 
 - Responsive design
 - Dark developer theme
@@ -12,17 +12,13 @@ My personal portfolio website built from scratch to showcase my skills, projects
 - Scroll animations
 - Contact section
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📂 Project Structure
-
----
-
-## 🎯 Purpose of This Project
+## Purpose of This Project
 
 I built this portfolio to:
 
@@ -34,7 +30,7 @@ I built this portfolio to:
 
 ---
 
-## 📚 What I Learned
+##  What I Learned
 
 Through this project I learned:
 
@@ -48,7 +44,7 @@ Through this project I learned:
 
 ---
 
-## 🌱 Future Improvements
+##  Future Improvements
 
 Possible future updates:
 
