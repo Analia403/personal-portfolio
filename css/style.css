@@ -1,0 +1,216 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+    font-family: Eden, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+}
+
+#hero h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+#hero h2 {
+    font-size: 1.8rem;
+    color: #94a3b8;
+    margin-top: 10px;
+}
+
+#hero p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+#hero a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#hero a:hover {
+    opacity: 0.8;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#about p {
+    max-width: 700px;
+    color: #cbd5e1;
+    font-size: 1.1rem;
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#skills li:hover {
+    transform: translateY(-5px)
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-container {
+    display: gird;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.project-card h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+#contact a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+}
+
+footer {
+    border-top: 1px solid #334155;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    #skills ul {
+        grid-template-columns: 1fr;
+    }
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
